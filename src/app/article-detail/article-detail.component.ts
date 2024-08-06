@@ -46,6 +46,7 @@ export class ArticleDetailComponent implements OnInit {
       error => {
         console.error('Error loading comments:', error);
       }
+      
     );
   }
 
